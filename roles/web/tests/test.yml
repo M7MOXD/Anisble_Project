@@ -1,0 +1,6 @@
+---
+- name: Test-Play
+  hosts: all
+  remote_user: ansible
+  roles:
+    - web

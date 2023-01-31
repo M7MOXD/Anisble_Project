@@ -1,0 +1,8 @@
+---
+# vars file for web
+package_name: nginx
+files:
+  - script.js
+  - style.css
+template_name: index.html
+template_msg: Hello From Ansible Template

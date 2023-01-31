@@ -1,0 +1,10 @@
+---
+# tasks file for web
+- name: Task-One
+  ansible.builtin.apt:
+    name: '{{ package_name }}'
+    state: present
+  changed_when: true
+  notify:
+    - Handler-One
+    - Handler-Two
